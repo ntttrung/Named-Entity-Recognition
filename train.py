@@ -32,7 +32,7 @@ if __name__ == '__main__':
                  "B-NAME", 'I-NAME',
                  "B-PHONE", "I-PHONE",
                  "O",
-                 "B-EMAIL", "I-EMAIL",]
+                 "B-EMAIL", "I-EMAIL"]
 
     parser = ArgumentParser()
     parser.add_argument('--run_name', type=str, required=True)
