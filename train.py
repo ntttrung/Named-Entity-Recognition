@@ -20,21 +20,19 @@ if __name__ == '__main__':
 
     seed_everything(43)
 
-    tags_list = ["B-ADDRESS", "I-ADDRESS",
-                 "B-SKILL", "I-SKILL",
-                 "B-EMAIL", "I-EMAIL",
-                 "B-PERSON", "I-PERSON",
-                 "B-PHONENUMBER", "I-PHONENUMBER",
-                 "B-QUANTITY", "I-QUANTITY",
-                 "B-PERSONTYPE", "I-PERSONTYPE",
-                 "B-ORGANIZATION", "I-ORGANIZATION",
-                 "B-PRODUCT", "I-PRODUCT",
-                 "B-IP", 'I-IP',
-                 "B-LOCATION", "I-LOCATION",
+    tags_list = ["B-ORG", "I-ORG",
+                 "B-DEGREE", "I-DEGREE",
+                 "B-MAJOR", "I-MAJOR",
+                 "B-TIME", "I-TIME",
+                 "B-POSITION", "I-POSITION",
+                 "B-SCORE", "I-SCORE",
+                 "B-SOFT_SKILL", "I-SOFT_SKILL",
+                 "B-TECH_SKILL", "I-TECH_SKILL",
+                 "B-LOC", "I-LOC",
+                 "B-NAME", 'I-NAME',
+                 "B-PHONE", "I-PHONE",
                  "O",
-                 "B-DATETIME", "I-DATETIME",
-                 "B-EVENT", "I-EVENT",
-                 "B-URL", "I-URL"]
+                 "B-EMAIL", "I-EMAIL",]
 
     parser = ArgumentParser()
     parser.add_argument('--run_name', type=str, required=True)
